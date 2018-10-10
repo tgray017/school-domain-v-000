@@ -19,5 +19,8 @@ end
 
 
 
-{:wilson=>[3, 4], :toby=>[5, 6], :tom=>[7, 8]}
+dogs = {:wilson => [3,4], :toby => [5,6], :tom => [7,8]}
 
+dogs[:wilson].each do |num|
+  puts num
+end
