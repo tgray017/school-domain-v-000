@@ -15,3 +15,9 @@ class School
   end
   
 end
+
+
+
+
+{:wilson=>[3, 4], :toby=>[5, 6], :tom=>[7, 8]}
+
