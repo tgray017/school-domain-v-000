@@ -11,7 +11,7 @@ class School
     @grade = grade
     
     if @roster.include?(@grade)
-      
+      @roster[@grade]
     else
     
     end
